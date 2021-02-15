@@ -1,0 +1,23 @@
+{
+  "name": "next-router",
+  "version": "1.0.0",
+  "description": "router test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "qc",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "koa": "^2.13.1",
+    "next": "^10.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "koa-router":"^8.0.8",
+    
+    "nodemon": "^1.8.1"
+  }
+}
